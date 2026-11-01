@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Tajawal', system-ui, -apple-system, sans-serif;
+  --font-heading: 'El Messiri', 'Tajawal', system-ui, -apple-system, sans-serif;
+  
+  --color-bath-pine: #052329;
+  --color-bath-green: #234536;
+  --color-bath-petrol: #283D48;
+  --color-bath-olive: #7F903E;
+  --color-bath-wine: #4C353F;
+}
+
+:root {
+  font-family: 'Tajawal', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color-scheme: dark;
+}
+
+/* Custom sleek scrollbar for media rows */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #052329;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #234536;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7F903E;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

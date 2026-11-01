@@ -1,0 +1,6 @@
+{
+  "name": "منصة بَث | BATH",
+  "description": "منصة بث وترفيه رقمية سعودية للمحتوى الأصلي والقصص المحلية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
